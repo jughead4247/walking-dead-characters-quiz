@@ -991,3 +991,189 @@ button{
         gap:14px;
     }
 }
+
+/* ===============================
+   SUGGESTED QUIZZES
+================================ */
+
+.suggested-quizzes {
+
+    margin-top: 40px;
+
+    padding-top: 30px;
+
+    border-top: 1px solid #303030;
+
+}
+
+
+.suggested-quizzes h2 {
+
+    margin: 0 0 8px;
+
+    text-align: center;
+
+    font-size: 26px;
+
+}
+
+
+.suggested-subtitle {
+
+    margin: 0 0 25px;
+
+    color: #888;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    line-height: 1.6;
+
+}
+
+
+.suggested-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 14px;
+
+}
+
+
+.suggested-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    justify-content: flex-start;
+
+    min-height: 260px;
+
+    padding: 12px;
+
+    background: #171717;
+
+    border: 1px solid #333;
+
+    border-radius: 12px;
+
+    color: #ddd;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+
+}
+
+
+.suggested-image {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    margin-bottom: 14px;
+
+    border-radius: 8px;
+
+}
+
+
+.suggested-card:hover {
+
+    background: #222;
+
+    border-color: #666;
+
+    transform: translateY(-4px);
+
+}
+
+
+.suggested-title {
+
+    display: block;
+
+    margin-bottom: 9px;
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+
+}
+
+
+.suggested-description {
+
+    display: block;
+
+    color: #999;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .suggested-quizzes {
+
+        margin-top: 30px;
+
+        padding-top: 25px;
+
+    }
+
+
+    .suggested-quizzes h2 {
+
+        font-size: 23px;
+
+    }
+
+
+    .suggested-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 12px;
+
+    }
+
+
+    .suggested-card {
+
+        min-height: auto;
+
+        padding: 12px;
+
+    }
+
+}
