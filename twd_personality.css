@@ -1,3 +1,139 @@
+/* ===============================
+   GLOBAL SITE HEADER
+   =============================== */
+
+.site-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 72px;
+    padding: 12px 60px;
+    background: #080808;
+    color: #ffffff;
+    border-bottom: 1px solid #292929;
+}
+
+.site-title {
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.45rem, 3vw, 2rem);
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+.menu-toggle {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: #ffffff;
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.menu-toggle[aria-expanded="true"] span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle[aria-expanded="true"] span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.site-menu {
+    position: absolute;
+    top: 72px;
+    left: 18px;
+    z-index: 1000;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    background: #111111;
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.45);
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.menu-links a {
+    display: block;
+    padding: 13px 14px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        background 0.2s ease,
+        padding-left 0.2s ease;
+}
+
+.menu-links a:hover {
+    background: #242424;
+    padding-left: 18px;
+}
+
+.menu-divider {
+    height: 1px;
+    margin: 8px 8px;
+    background: #333333;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        min-height: 64px;
+        padding: 10px 52px;
+    }
+
+    .site-title {
+        font-size: 1.25rem;
+        letter-spacing: 1.3px;
+    }
+
+    .menu-toggle {
+        left: 10px;
+    }
+
+    .site-menu {
+        top: 64px;
+        left: 10px;
+        width: calc(100% - 20px);
+        max-width: 340px;
+    }
+}
+
 *{
     box-sizing:border-box;
 }
@@ -858,60 +994,58 @@ button{
 
 /* ===============================
    FOOTER
-================================ */
+   =============================== */
 
-.site-footer{
-
-    width:100%;
-
-    max-width:760px;
-
-    margin-top:20px;
-
-    padding:10px;
-
-    font-size:12px;
-
-    position:relative;
-
-    z-index:1;
+.site-footer {
+    margin-top: 0;
+    padding: 50px 20px 35px;
+    background: #080808;
+    color: #ffffff;
+    border-top: 1px solid #292929;
 }
 
-.footer-links{
-
-    display:flex;
-
-    justify-content:center;
-
-    flex-wrap:wrap;
-
-    gap:18px;
+.footer-inner {
+    width: min(100%, 1100px);
+    margin: auto;
+    text-align: center;
 }
 
-.site-footer a{
-
-    color:#777;
-
-    text-decoration:none;
+.footer-brand {
+    margin-bottom: 24px;
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
 
-.site-footer a:hover{
-
-    color:#ccc;
-
-    text-decoration:underline;
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    margin-bottom: 26px;
 }
 
-.copyright{
-
-    margin-top:12px;
-
-    text-align:center;
-
-    color:#555;
-
-    font-size:11px;
+.footer-links a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
 }
+
+.footer-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 12px;
+    color: #999999;
+    font-size: 0.8rem;
+}
+
 
 
 /* ===============================
