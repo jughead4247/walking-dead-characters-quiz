@@ -8,8 +8,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 72px;
-    padding: 12px 60px;
+    min-height: 100px;
+    padding: 40px 60px;
     background: #080808;
     color: #ffffff;
     border-bottom: 1px solid #292929;
@@ -982,7 +982,7 @@ button{
 .site-footer {
     width: 100%;
     margin-top: auto;
-    padding: 50px 20px 35px;
+    padding: 10px 20px;
 
     background: #080808;
     color: #ffffff;
