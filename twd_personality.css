@@ -150,17 +150,18 @@ body{
 
     color:#f2f2f2;
 
-    background:
-        linear-gradient(
-            rgba(0,0,0,.72),
-            rgba(0,0,0,.88)
-        ),
-        radial-gradient(
-            circle at 50% 20%,
-            #3b3b3b 0%,
-            #111 45%,
-            #050505 100%
-        );
+    /* ===============================
+       PARCHMENT IMAGE BACKGROUND
+       =============================== */
+
+    background-color:#c5ad82;
+
+    background-image:url("/images/parchment-bg.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 
     display:flex;
     flex-direction:column;
@@ -168,24 +169,6 @@ body{
     align-items:center;
 
     padding:20px;
-}
-
-body::before{
-    content:"";
-
-    position:fixed;
-    inset:0;
-
-    pointer-events:none;
-
-    background:
-        repeating-linear-gradient(
-            0deg,
-            rgba(255,255,255,.015) 0px,
-            rgba(255,255,255,.015) 1px,
-            transparent 1px,
-            transparent 4px
-        );
 }
 
 .container{
