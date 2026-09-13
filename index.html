@@ -1,110 +1,82 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
+    <title>The Walking Dead Personality Quiz — Which Character Are You?</title>
 
-<meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Take the Walking Dead Personality Quiz with 30 decisions and discover which Walking Dead character matches your personality. Compare your survival instincts, loyalty, morality, leadership, trust and more.">
 
-<title>
-    The Walking Dead Personality Quiz — Which Character Are You?
-</title>
+    <link rel="canonical"
+        href="https://apocalypsequizzes.com/the-walking-dead-characters-quiz/">
 
-<meta name="description"
-    content="Take the Walking Dead Personality Quiz with 30 survival decisions. Discover which of 19 Walking Dead characters best matches your personality across 16 traits.">
+    <meta name="keywords"
+        content="Walking Dead personality quiz, Walking Dead character quiz, TWD personality test, TWD character quiz, which Walking Dead character are you, Walking Dead quiz, TWD quiz, personality quiz, zombie personality quiz, Walking Dead characters">
 
-<link rel="canonical"
-    href="https://apocalypsequizzes.com/the-walking-dead-characters-quiz/">
+    <meta name="author" content="Apocalypse Quizzes">
+    <meta name="robots" content="index, follow">
 
-<meta name="author"
-    content="Apocalypse Quizzes">
+    <meta property="og:title"
+        content="The Walking Dead Personality Quiz — Which Character Are You?">
 
-<meta name="robots"
-    content="index, follow">
+    <meta property="og:description"
+        content="Answer 30 difficult decisions, explore 16 personality traits and discover which of 19 Walking Dead characters matches you.">
 
-<meta property="og:title"
-    content="The Walking Dead Personality Quiz — Which Character Are You?">
+    <meta property="og:url"
+        content="https://apocalypsequizzes.com/the-walking-dead-characters-quiz/">
 
-<meta property="og:description"
-    content="Make 30 difficult survival decisions and discover which Walking Dead character matches your personality.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apocalypse Quizzes">
 
-<meta property="og:type"
-    content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title"
+        content="The Walking Dead Personality Quiz — Which Character Are You?">
 
-<meta property="og:url"
-    content="https://apocalypsequizzes.com/the-walking-dead-characters-quiz/">
+    <meta name="twitter:description"
+        content="Answer 30 difficult decisions and discover your Walking Dead character match.">
 
-<meta property="og:image"
-    content="https://apocalypsequizzes.com/images/twd-personality.png">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="twd_personality.css">
 
-<meta name="twitter:card"
-    content="summary_large_image">
+    <!-- Google Analytics -->
+    <script async
+        src="https://www.googletagmanager.com/gtag/js?id=G-YC3ERJSBST">
+    </script>
 
-<meta name="twitter:title"
-    content="The Walking Dead Personality Quiz — Which Character Are You?">
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<meta name="twitter:description"
-    content="Take 30 survival decisions and discover your closest Walking Dead personality match.">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-<link rel="icon"
-    href="/favicon.ico">
+        gtag('js', new Date());
 
-<link rel="stylesheet"
-    href="twd_personality.css">
+        gtag('config', 'G-YC3ERJSBST');
+    </script>
 
-<!-- Google Analytics -->
-<script async
-    src="https://www.googletagmanager.com/gtag/js?id=G-YC3ERJSBST">
-</script>
-
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag(
-        "js",
-        new Date()
-    );
-
-    gtag(
-        "config",
-        "G-YC3ERJSBST"
-    );
-</script>
-
-<!-- Google AdSense -->
-<script async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2285244517360573"
-    crossorigin="anonymous">
-</script>
+    <!-- Google AdSense -->
+    <script async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2285244517360573"
+        crossorigin="anonymous"></script>
 
 </head>
+
 
 <body>
 
 <header class="site-header">
 
-<div class="site-header-inner">
-
-    <a href="/"
-       class="site-logo">
-        APOCALYPSE QUIZZES
-    </a>
-
-
     <button
-        id="menu-toggle"
         class="menu-toggle"
+        id="menu-toggle"
         type="button"
+        aria-label="Open navigation"
         aria-expanded="false"
-        aria-controls="site-menu"
-        aria-label="Open navigation">
+        aria-controls="site-menu">
 
         <span></span>
         <span></span>
@@ -112,1235 +84,1266 @@
 
     </button>
 
-
-    <nav
-        id="site-menu"
-        class="site-menu"
-        hidden>
-
-        <a href="/">Home</a>
-
-        <a href="/search/">Search</a>
-
-        <a href="/categories/">Categories</a>
-
-        <a href="/about.html">About</a>
-
-        <a href="/privacy.html">Privacy</a>
-
-        <a href="/disclaimer.html">Disclaimer</a>
-
-        <a href="/contact.html">Contact</a>
-
-    </nav>
-
-</div>
+    <div class="site-title">
+        APOCALYPSE QUIZZES
+    </div>
 
 </header>
 
-<main>
 
-<!-- =========================================================
-     INTRODUCTION
-========================================================= -->
+<nav
+    class="site-menu"
+    id="site-menu"
+    aria-label="Main navigation"
+    hidden>
 
-<section class="quiz-intro">
+    <div class="menu-links">
 
-<p class="eyebrow">
-    THE WALKING DEAD PERSONALITY QUIZ
-</p>
+        <a href="/">
+            🏠 Home
+        </a>
 
+        <a href="/search/">
+            🔎 Search Quizzes
+        </a>
 
-<h1>
-    Which Walking Dead Character Are You?
-</h1>
+        <a href="/categories/">
+            📂 Categories
+        </a>
 
+        <div class="menu-divider"></div>
 
-<p class="intro-text">
-    What would you do when survival, loyalty and morality
-    collide? This Walking Dead personality quiz puts you
-    into difficult fictional situations and uses your
-    decisions to build a personality profile.
-</p>
+        <a href="/about.html">
+            About
+        </a>
 
+        <a href="/privacy.html">
+            Privacy Policy
+        </a>
 
-<p class="intro-text">
-    Instead of asking which character you like most, the
-    quiz looks at how you respond to danger, leadership,
-    trust, sacrifice, revenge, strangers and other survival
-    decisions. Your answers are compared with personality
-    profiles representing 19 different characters from
-    The Walking Dead.
-</p>
+        <a href="/disclaimer.html">
+            Disclaimer
+        </a>
 
-
-<img
-    src="images/twd-personality.png"
-    alt="The Walking Dead Personality Quiz"
-    class="quiz-cover"
-    loading="eager">
-
-
-<div class="quiz-summary">
-
-    <div>
-        <strong>30</strong>
-        <span>Decisions</span>
-    </div>
-
-    <div>
-        <strong>5</strong>
-        <span>Choices Each</span>
-    </div>
-
-    <div>
-        <strong>16</strong>
-        <span>Personality Traits</span>
-    </div>
-
-    <div>
-        <strong>19</strong>
-        <span>Possible Characters</span>
-    </div>
-
-</div>
-
-
-<p class="quiz-note">
-    Fictional entertainment experience. Your answers
-    determine your personality profile and character match.
-</p>
-
-
-<button
-    id="start-btn"
-    class="primary-btn"
-    type="button">
-    START QUIZ
-</button>
-
-</section>
-
-<!-- =========================================================
-     HOW THE QUIZ WORKS
-========================================================= -->
-
-<section class="content-section">
-
-<h2>
-    How the Walking Dead Personality Quiz Works
-</h2>
-
-
-<p>
-    The quiz presents 30 fictional situations inspired by
-    the kinds of difficult decisions that define life in
-    The Walking Dead. There is no single correct answer.
-    Each choice represents a different way of approaching
-    survival, relationships, danger or leadership.
-</p>
-
-
-<p>
-    Your answers contribute to a profile across 16
-    personality dimensions. Once you finish all 30
-    decisions, the resulting profile is compared with
-    fictional character profiles created for this quiz.
-    The result shows your closest character match as well
-    as your next two strongest matches.
-</p>
-
-
-<p>
-    This means two people can receive the same character
-    while still having noticeably different strengths and
-    weaknesses. Your final result is based on the overall
-    pattern of your answers rather than one particular
-    question.
-</p>
-
-</section>
-
-<!-- =========================================================
-     QUIZ SCREEN
-========================================================= -->
-
-<section
-    id="quiz-screen"
-    class="quiz-screen hidden">
-
-<div class="quiz-progress">
-
-    <div class="progress-header">
-
-        <span id="question-number">
-            Question 1 of 30
-        </span>
-
-        <span id="progress-text">
-            0%
-        </span>
+        <a href="/contact.html">
+            Contact
+        </a>
 
     </div>
 
+</nav>
 
-    <div class="progress-track">
 
-        <div
-            id="progress-bar"
-            class="progress-bar">
+<main class="container">
+
+
+    <!-- ===============================
+         START SCREEN
+    ================================ -->
+
+    <section id="start-screen" class="screen">
+
+        <p class="eyebrow">
+            PERSONALITY QUIZ
+        </p>
+
+        <div class="start-image">
+
+            <img
+                src="twd-personality.png"
+                alt="The Walking Dead Personality Quiz"
+                onerror="this.parentElement.classList.add('image-missing');">
+
+        </div>
+
+
+        <p class="subtitle">
+            Every decision reveals something about how you think,
+            trust, lead, survive, and deal with other people.
+            Make your choices and discover which THE WALKING DEAD
+            character matches your personality.
+        </p>
+
+
+        <div class="info">
+
+            <span>30 Decisions</span>
+
+            <span>•</span>
+
+            <span>5 Choices Each</span>
+
+            <span>•</span>
+
+            <span>16 Traits</span>
+
+            <span>•</span>
+
+            <span>19 Different personalities</span>
+
+        </div>
+
+
+        <button id="start-btn">
+            START QUIZ
+        </button>
+
+
+        <p class="start-note">
+            Fictional entertainment experience.
+            Your answers determine your personality profile.
+        </p>
+
+    </section>
+
+
+
+    <!-- ===============================
+         QUIZ SCREEN
+    ================================ -->
+
+    <section id="quiz-screen" class="screen hidden">
+
+        <div class="quiz-header">
+
+            <span id="question-number">
+                Question 1 of 30
+            </span>
+
+            <span id="progress-text">
+                0%
+            </span>
+
+        </div>
+
+
+        <div class="progress">
+
+            <div id="progress-bar"></div>
+
+        </div>
+
+
+        <h2 id="question"></h2>
+
+
+        <div id="answers"></div>
+
+
+        <div class="quiz-navigation">
+
+            <button
+                id="back-btn"
+                class="nav-btn hidden">
+                ← BACK
+            </button>
+
+            <button
+                id="next-btn"
+                class="nav-btn">
+                NEXT →
+            </button>
+
+            <button
+                id="submit-btn"
+                class="nav-btn hidden">
+                SEE MY RESULT
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===============================
+         RESULT SCREEN
+    ================================ -->
+
+    <section id="result-screen" class="screen hidden">
+
+        <p class="result-label">
+            YOUR WALKING DEAD PERSONALITY
+        </p>
+
+
+        <h1 id="result-title">
+            —
+        </h1>
+
+
+        <!-- WINNER -->
+
+        <div class="winner-card">
+
+            <div class="winner-image-wrap">
+
+                <img
+                    id="winner-image"
+                    src=""
+                    alt="">
+
+            </div>
+
+
+            <div class="match-label">
+                BEST CHARACTER MATCH
+            </div>
+
+
+            <div class="match-score">
+
+                <span id="match-score">
+                    0
+                </span>%
+
+            </div>
+
+
+            <p id="result-description"></p>
+
+        </div>
+
+
+
+        <!-- TOP 3 -->
+
+        <div class="result-section">
+
+            <h2>
+                YOUR TOP 3 MATCHES
+            </h2>
+
+            <div
+                id="top-matches"
+                class="match-list">
+            </div>
+
+        </div>
+
+
+
+        <!-- STRONGEST / LOWEST -->
+
+        <div class="trait-columns">
+
+            <div class="trait-card">
+
+                <h2>
+                    STRONGEST TRAITS
+                </h2>
+
+                <div id="strongest-traits"></div>
+
+            </div>
+
+
+            <div class="trait-card">
+
+                <h2>
+                    LOWEST TRAITS
+                </h2>
+
+                <div id="lowest-traits"></div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FULL PROFILE -->
+
+        <div class="result-section">
+
+            <h2>
+                YOUR PERSONALITY PROFILE
+            </h2>
+
+            <p class="section-note">
+                Your scores are based on the 16 hidden traits measured
+                throughout the quiz.
+            </p>
+
+            <div
+                id="trait-profile"
+                class="trait-profile">
+            </div>
+
+        </div>
+
+
+
+        <button id="restart-btn">
+            TRY AGAIN
+        </button>
+
+
+        <button id="share-btn">
+            📤 SHARE MY RESULT
+        </button>
+
+
+        <button id="challenge-btn">
+            🧟 CHALLENGE YOUR FRIENDS
+        </button>
+
+
+
+        <!-- =================================================
+             SUGGESTED QUIZZES
+             ================================================= -->
+
+        <section class="suggested-quizzes">
+
+            <h2>
+                Suggested Quizzes
+            </h2>
+
+            <p class="suggested-subtitle">
+                Think you can handle more? Try another quiz.
+            </p>
+
+
+            <div class="suggested-grid">
+
+
+                <!-- WALKING DEAD KNOWLEDGE -->
+
+                <a
+                    href="/walking-dead-knowledge/"
+                    class="suggested-card">
+
+                    <img
+                        src="walking-dead-knowledge.png"
+                        alt="The Walking Dead Knowledge Quiz"
+                        class="suggested-image">
+
+                    <span class="suggested-title">
+                        The Walking Dead Knowledge Quiz
+                    </span>
+
+                    <span class="suggested-description">
+                        Test your knowledge of The Walking Dead.
+                    </span>
+
+                </a>
+
+
+
+                <!-- ZOMBIE APOCALYPSE SURVIVAL QUIZ -->
+
+                <a
+                    href="/zombie-quiz/"
+                    class="suggested-card">
+
+                    <img
+                        src="zombie-apocalypse.png"
+                        alt="Zombie Apocalypse Survival Quiz"
+                        class="suggested-image">
+
+                    <span class="suggested-title">
+                        Zombie Apocalypse Survival Quiz
+                    </span>
+
+                    <span class="suggested-description">
+                        Discover how long you would survive in a zombie outbreak.
+                    </span>
+
+                </a>
+
+
+
+                <!-- ULTIMATE ZOMBIE SURVIVAL TEST -->
+
+                <a
+                    href="/ultimate-zombie-survival-test/"
+                    class="suggested-card">
+
+                    <img
+                        src="ultimate-zombie.png"
+                        alt="Ultimate Zombie Survival Test"
+                        class="suggested-image">
+
+                    <span class="suggested-title">
+                        Ultimate Zombie Apocalypse Survival Test
+                    </span>
+
+                    <span class="suggested-description">
+                        Take the Ultimate Zombie Apocalypse Survival Test with 90 decisions.
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MORE QUIZZES CTA -->
+
+        <div class="more-quizzes-card">
+
+            <h3>
+                Explore More Quizzes
+            </h3>
+
+            <p>
+                Discover more apocalypse, zombie, survival and dystopian quizzes.
+            </p>
+
+            <a
+                href="/"
+                class="more-quizzes-btn">
+
+                🧟 APOCALYPSE QUIZZES
+
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         INFORMATION / ORIGINAL PAGE CONTENT
+         ===================================================== -->
+
+    <div id="home-info">
+
+
+        <!-- ===============================
+             INTRODUCTION
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                Which Walking Dead Character Are You?
+            </h2>
+
+
+            <p>
+                The Walking Dead Personality Quiz is an interactive
+                character-matching experience inspired by the world of
+                <em>The Walking Dead</em>. Instead of simply asking which
+                character you like most, the quiz puts you into fictional
+                survival situations and asks what you would actually do.
+            </p>
+
+
+            <p>
+                Your decisions can reveal different sides of your personality.
+                You might value loyalty over safety, prefer careful planning
+                over immediate action, trust people quickly, or become more
+                cautious after someone betrays you. There is no single
+                "correct" answer because the situations are designed around
+                difficult choices rather than trivia knowledge.
+            </p>
+
+
+            <p>
+                After 30 decisions, the quiz creates a personality profile
+                using 16 fictional traits. That profile is then compared with
+                the character profiles used by the quiz to find your closest
+                Walking Dead matches.
+            </p>
+
+
+            <p>
+                Your result includes your best character match, a match
+                percentage, your top three characters, your strongest traits,
+                your lowest traits, and a complete view of your personality
+                profile.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             HOW IT WORKS
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                How Does the Walking Dead Personality Quiz Work?
+            </h2>
+
+
+            <p>
+                The quiz contains 30 fictional decisions. Every question
+                gives you five possible responses, allowing you to choose
+                the action that best represents how you would react.
+            </p>
+
+
+            <p>
+                Your answers are converted into scores across 16 different
+                personality dimensions. Some choices may increase several
+                traits at once, while other decisions may reveal a stronger
+                preference for one particular way of dealing with a situation.
+            </p>
+
+
+            <p>
+                Once all 30 questions are completed, your scores are turned
+                into a personality profile. The profile is compared with the
+                character models used by the quiz, and the characters with
+                the closest overall profiles become your matches.
+            </p>
+
+
+            <p>
+                The result is therefore based on the pattern of your decisions,
+                rather than one question deciding which character you receive.
+                This means that two people who choose the same answer on a few
+                questions can still receive completely different results because
+                of their choices throughout the rest of the quiz.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             WHAT THE QUIZ MEASURES
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                What Does the Walking Dead Personality Quiz Measure?
+            </h2>
+
+
+            <p>
+                Your decisions contribute to sixteen fictional personality
+                traits. These traits represent different approaches to
+                survival, relationships, leadership, morality and risk.
+                They are used for entertainment and character matching, not
+                as a clinical personality assessment.
+            </p>
+
+
+            <h3>
+                Self-Preservation
+            </h3>
+
+            <p>
+                How strongly you prioritize keeping yourself alive and
+                protecting your own safety when circumstances become dangerous.
+            </p>
+
+
+            <h3>
+                Courage
+            </h3>
+
+            <p>
+                Your willingness to confront danger, uncertainty or difficult
+                situations instead of automatically choosing the safest option.
+            </p>
+
+
+            <h3>
+                Empathy
+            </h3>
+
+            <p>
+                How much you consider other people's emotions, suffering and
+                personal circumstances when making difficult decisions.
+            </p>
+
+
+            <h3>
+                Loyalty
+            </h3>
+
+            <p>
+                How strongly you value protecting friends, family members and
+                people who have earned your trust.
+            </p>
+
+
+            <h3>
+                Morality
+            </h3>
+
+            <p>
+                How much your decisions are influenced by personal principles,
+                fairness and ideas about right and wrong.
+            </p>
+
+
+            <h3>
+                Pragmatism
+            </h3>
+
+            <p>
+                Your tendency to focus on practical results when ideal choices
+                are unavailable or impossible.
+            </p>
+
+
+            <h3>
+                Ruthlessness
+            </h3>
+
+            <p>
+                How willing you are to use harsh or uncompromising actions when
+                you believe survival or another important goal requires them.
+            </p>
+
+
+            <h3>
+                Leadership
+            </h3>
+
+            <p>
+                Your willingness to take responsibility, make difficult calls
+                and guide other people when a group needs direction.
+            </p>
+
+
+            <h3>
+                Independence
+            </h3>
+
+            <p>
+                How comfortable you are relying on your own judgment instead
+                of depending on a group or authority figure.
+            </p>
+
+
+            <h3>
+                Trust
+            </h3>
+
+            <p>
+                How easily you are willing to believe other people and allow
+                them into your plans, group or personal life.
+            </p>
+
+
+            <h3>
+                Charisma
+            </h3>
+
+            <p>
+                Your tendency to influence people through communication,
+                confidence, personality and social connection.
+            </p>
+
+
+            <h3>
+                Manipulation
+            </h3>
+
+            <p>
+                How willing you are to influence people indirectly when you
+                believe controlling a situation is necessary.
+            </p>
+
+
+            <h3>
+                Strategy
+            </h3>
+
+            <p>
+                Your preference for planning ahead, considering consequences
+                and looking for advantages before taking action.
+            </p>
+
+
+            <h3>
+                Hope
+            </h3>
+
+            <p>
+                How strongly you continue to believe that a better outcome is
+                possible even when circumstances become extremely difficult.
+            </p>
+
+
+            <h3>
+                Emotional Control
+            </h3>
+
+            <p>
+                Your ability to remain composed and make decisions when fear,
+                anger, grief or pressure could interfere with your judgment.
+            </p>
+
+
+            <h3>
+                Risk Appetite
+            </h3>
+
+            <p>
+                How comfortable you are taking uncertain or dangerous actions
+                when the possible reward appears worth the risk.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             CHARACTER MATCHES
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                Which Walking Dead Characters Can You Match With?
+            </h2>
+
+
+            <p>
+                The quiz currently compares your personality profile with
+                19 different characters from <em>The Walking Dead</em>.
+                Each character represents a different combination of traits,
+                so your result is based on overall similarity rather than
+                simply choosing a popular character.
+            </p>
+
+
+            <h3>
+                Rick Grimes
+            </h3>
+
+            <p>
+                A leader shaped by responsibility, survival pressure,
+                loyalty and difficult moral decisions.
+            </p>
+
+
+            <h3>
+                Daryl Dixon
+            </h3>
+
+            <p>
+                Independent, resilient and protective, with a strong tendency
+                to rely on personal instincts and loyalty.
+            </p>
+
+
+            <h3>
+                Carol Peletier
+            </h3>
+
+            <p>
+                A highly adaptive survivor whose personality combines
+                emotional strength, strategy and a willingness to make
+                difficult choices.
+            </p>
+
+
+            <h3>
+                Shane Walsh
+            </h3>
+
+            <p>
+                Decisive and intense, with a strong emphasis on survival,
+                action and protecting the people closest to him.
+            </p>
+
+
+            <h3>
+                Glenn Rhee
+            </h3>
+
+            <p>
+                Resourceful and loyal, combining courage with empathy and
+                a strong concern for the people around him.
+            </p>
+
+
+            <h3>
+                Michonne
+            </h3>
+
+            <p>
+                Independent and controlled, with strong loyalty and the ability
+                to remain composed under extreme pressure.
+            </p>
+
+
+            <h3>
+                Maggie Greene
+            </h3>
+
+            <p>
+                Determined and resilient, balancing leadership, loyalty and
+                practical survival decisions.
+            </p>
+
+
+            <h3>
+                Hershel Greene
+            </h3>
+
+            <p>
+                Principled and compassionate, with a strong emphasis on
+                morality, hope and protecting human values.
+            </p>
+
+
+            <h3>
+                Abraham Ford
+            </h3>
+
+            <p>
+                Direct and courageous, with a strong action-oriented approach
+                to danger and leadership.
+            </p>
+
+
+            <h3>
+                Eugene Porter
+            </h3>
+
+            <p>
+                Analytical and strategic, relying heavily on planning,
+                knowledge and problem-solving.
+            </p>
+
+
+            <h3>
+                Negan
+            </h3>
+
+            <p>
+                Charismatic and controlling, with a strong ability to influence
+                people and use intimidation when pursuing power.
+            </p>
+
+
+            <h3>
+                The Governor
+            </h3>
+
+            <p>
+                Manipulative and power-focused, combining strategic thinking
+                with a willingness to use ruthless methods.
+            </p>
+
+
+            <h3>
+                Morgan Jones
+            </h3>
+
+            <p>
+                A deeply conflicted survivor whose decisions can be shaped by
+                morality, grief, hope and the struggle to control his emotions.
+            </p>
+
+
+            <h3>
+                Gabriel Stokes
+            </h3>
+
+            <p>
+                A character shaped by fear, faith, personal growth and an
+                evolving willingness to face danger.
+            </p>
+
+
+            <h3>
+                Ezekiel
+            </h3>
+
+            <p>
+                A natural communicator who combines charisma, leadership,
+                hope and concern for his community.
+            </p>
+
+
+            <h3>
+                Gregory
+            </h3>
+
+            <p>
+                A self-interested survivor who often prioritizes personal
+                safety, influence and comfort.
+            </p>
+
+
+            <h3>
+                Gareth
+            </h3>
+
+            <p>
+                A calculating survivor whose worldview places group survival
+                and ruthless pragmatism above conventional morality.
+            </p>
+
+
+            <h3>
+                Dawn Lerner
+            </h3>
+
+            <p>
+                A rigid authority figure whose decisions are strongly shaped
+                by control, responsibility and institutional power.
+            </p>
+
+
+            <h3>
+                Bob Stookey
+            </h3>
+
+            <p>
+                A survivor associated with hope, empathy, resilience and the
+                desire to maintain human connection despite difficult events.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             MATCHING SYSTEM
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                How Is Your Walking Dead Character Match Calculated?
+            </h2>
+
+
+            <p>
+                The quiz does not determine your character from a single
+                question. Instead, every answer contributes to your overall
+                personality profile.
+            </p>
+
+
+            <p>
+                The 16 trait scores create a numerical representation of your
+                choices across the entire quiz. The character profiles use the
+                same trait categories, allowing your profile to be compared
+                with each character on the same dimensions.
+            </p>
+
+
+            <p>
+                Characters whose overall trait patterns are closer to yours
+                receive higher similarity scores. The closest character becomes
+                your best match, while the next closest profiles appear in
+                your top three results.
+            </p>
+
+
+            <p>
+                Because the result considers all of your decisions together,
+                changing several answers can change both your personality
+                profile and the character you match with.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             WHY DIFFERENT PEOPLE GET
+             DIFFERENT RESULTS
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                Why Can Two People Get Different Walking Dead Characters?
+            </h2>
+
+
+            <p>
+                The quiz is designed around combinations of decisions rather
+                than one obvious answer. Someone might be highly courageous
+                but also very empathetic, while another person could be equally
+                courageous but much more pragmatic or ruthless.
+            </p>
+
+
+            <p>
+                Those differences matter because the characters themselves
+                are represented by different combinations of personality
+                traits. Your final result reflects the overall pattern created
+                by your answers.
+            </p>
+
+
+            <p>
+                This also means there is no universally "best" character.
+                A character associated with leadership may not be your closest
+                match if your decisions consistently favor independence,
+                caution, strategy or empathy instead.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             HOW TO GET A DIFFERENT RESULT
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                How Can I Get a Different Character Result?
+            </h2>
+
+
+            <p>
+                You can restart the quiz and make different decisions.
+                Try imagining yourself in each situation rather than choosing
+                the answer you think a particular Walking Dead character would
+                choose.
+            </p>
+
+
+            <p>
+                If you deliberately change several decisions, your underlying
+                trait profile can change as well. This may produce a different
+                best match or move another character higher in your top three.
+            </p>
+
+
+            <p>
+                For the most interesting result, take the quiz once based on
+                your normal instincts and then take it again while imagining
+                how you would behave under a completely different survival
+                strategy.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             FAQ
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+
+            <h3>
+                How does the Walking Dead personality quiz work?
+            </h3>
+
+            <p>
+                You face 30 fictional situations and choose the response
+                that best represents what you would do. Your choices are
+                analyzed across 16 personality traits and compared with
+                19 character profiles.
+            </p>
+
+
+            <h3>
+                How many questions are in the quiz?
+            </h3>
+
+            <p>
+                The quiz contains 30 questions, with five choices available
+                for each question.
+            </p>
+
+
+            <h3>
+                How many Walking Dead characters are included?
+            </h3>
+
+            <p>
+                The current personality system includes 19 different
+                Walking Dead character profiles.
+            </p>
+
+
+            <h3>
+                How is my Walking Dead character determined?
+            </h3>
+
+            <p>
+                Your personality profile is compared against the character
+                profiles in the quiz's character matrix. The three closest
+                matches are shown on the results page.
+            </p>
+
+
+            <h3>
+                Does the quiz depend on Walking Dead trivia knowledge?
+            </h3>
+
+            <p>
+                No. This is a personality quiz rather than a knowledge test.
+                You do not need to remember episode details to complete it.
+                The questions focus on fictional decisions and how you would
+                respond to different survival situations.
+            </p>
+
+
+            <h3>
+                Can I get a different character on another attempt?
+            </h3>
+
+            <p>
+                Yes. Try the quiz again and make different decisions.
+                Changing your choices can change your personality profile
+                and therefore your closest character matches.
+            </p>
+
+
+            <h3>
+                Why do I have three character matches?
+            </h3>
+
+            <p>
+                Your personality profile may share important traits with
+                several characters. Showing the top three gives you a broader
+                view of the characters whose profiles are most similar to
+                your result.
+            </p>
+
+
+            <h3>
+                Is this a scientific personality test?
+            </h3>
+
+            <p>
+                No. This is a fictional entertainment experience inspired by
+                The Walking Dead. It is not a psychological, medical or
+                scientific assessment.
+            </p>
+
+
+            <h3>
+                Can I share my result with friends?
+            </h3>
+
+            <p>
+                Yes. After completing the quiz, use the share option to share
+                your result when supported by your browser or device.
+                You can also challenge friends to take the quiz and compare
+                your character matches.
+            </p>
+
+
+            <h3>
+                What happens if I refresh the page during the quiz?
+            </h3>
+
+            <p>
+                The quiz is designed as an interactive browser experience.
+                If you leave or refresh the page before finishing, you may
+                need to start the quiz again.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===============================
+             DISCLAIMER / ENTERTAINMENT
+        ================================ -->
+
+        <section class="home-info">
+
+            <h2>
+                About This Walking Dead Personality Quiz
+            </h2>
+
+
+            <p>
+                This quiz is created for entertainment and fandom purposes.
+                The personality descriptions are fictional interpretations
+                used to create character matches and should not be treated as
+                official psychological profiles of the characters.
+            </p>
+
+
+            <p>
+                The quiz is also not affiliated with, endorsed by, or
+                sponsored by the creators, producers, networks or rights
+                holders of <em>The Walking Dead</em>.
+            </p>
+
+
+            <p>
+                The goal is simple: put yourself into difficult fictional
+                situations, make your decisions, and see which character's
+                overall personality pattern comes closest to yours.
+            </p>
+
+        </section>
+
+
+    </div>
+
+</main>
+
+
+
+<!-- ===============================
+     FOOTER
+================================ -->
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            APOCALYPSE QUIZZES
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="/about.html">
+                About
+            </a>
+
+            <a href="/privacy.html">
+                Privacy Policy
+            </a>
+
+            <a href="/disclaimer.html">
+                Disclaimer
+            </a>
+
+            <a href="/contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="copyright">
+            © 2026 Apocalypse Quizzes
         </div>
 
     </div>
 
-</div>
-
-
-<div class="question-card">
-
-    <h2 id="question"></h2>
-
-    <div id="answers"></div>
-
-</div>
-
-
-<div class="quiz-navigation">
-
-    <button
-        id="back-btn"
-        class="secondary-btn hidden"
-        type="button">
-        BACK
-    </button>
-
-
-    <button
-        id="next-btn"
-        class="secondary-btn"
-        type="button">
-        NEXT
-    </button>
-
-
-    <button
-        id="submit-btn"
-        class="primary-btn hidden"
-        type="button">
-        SEE MY RESULT
-    </button>
-
-</div>
-
-</section>
-
-<!-- =========================================================
-     RESULT SCREEN
-========================================================= -->
-
-<section
-    id="result-screen"
-    class="result-screen hidden">
-
-<p class="eyebrow">
-    YOUR WALKING DEAD PERSONALITY
-</p>
-
-
-<h2 id="result-title"></h2>
-
-
-<img
-    id="winner-image"
-    src=""
-    alt=""
-    class="winner-image">
-
-
-<div class="result-score">
-
-    <span>
-        CHARACTER MATCH
-    </span>
-
-    <strong>
-        <span id="match-score">0</span>%
-    </strong>
-
-</div>
-
-
-<p id="result-description"></p>
-
-
-
-<!-- TOP MATCHES -->
-
-<div class="result-section">
-
-    <h3>
-        Your Top 3 Character Matches
-    </h3>
-
-    <div id="top-matches"></div>
-
-</div>
-
-
-
-<!-- STRONGEST TRAITS -->
-
-<div class="result-section">
-
-    <h3>
-        Your Strongest Traits
-    </h3>
-
-    <div id="strongest-traits"></div>
-
-</div>
-
-
-
-<!-- LOWEST TRAITS -->
-
-<div class="result-section">
-
-    <h3>
-        Traits You Score Lower In
-    </h3>
-
-    <div id="lowest-traits"></div>
-
-</div>
-
-
-
-<!-- FULL PROFILE -->
-
-<div class="result-section">
-
-    <h3>
-        Your Full Personality Profile
-    </h3>
-
-    <p>
-        Your result is based on 16 personality dimensions.
-        The bars below show how your answers were scored
-        across the complete profile.
-    </p>
-
-    <div id="trait-profile"></div>
-
-</div>
-
-
-
-<div class="result-actions">
-
-    <button
-        id="share-btn"
-        class="primary-btn"
-        type="button">
-        SHARE MY RESULT
-    </button>
-
-
-    <button
-        id="challenge-btn"
-        class="secondary-btn"
-        type="button">
-        CHALLENGE FRIENDS
-    </button>
-
-
-    <button
-        id="restart-btn"
-        class="secondary-btn"
-        type="button">
-        TAKE QUIZ AGAIN
-    </button>
-
-</div>
-
-</section>
-
-<!-- =========================================================
-     TRAIT EXPLANATION
-========================================================= -->
-
-<section class="content-section">
-
-<h2>
-    What Does the Walking Dead Personality Quiz Measure?
-</h2>
-
-
-<p>
-    The quiz uses 16 fictional personality dimensions to
-    describe different approaches to survival and social
-    situations. These traits are not psychological
-    diagnoses or scientific personality measurements.
-    They are designed specifically for this entertainment
-    quiz.
-</p>
-
-
-<div class="trait-guide">
-
-
-    <article>
-
-        <h3>Self-Preservation</h3>
-
-        <p>
-            How strongly you prioritize staying alive and
-            protecting yourself when circumstances become
-            dangerous.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Courage</h3>
-
-        <p>
-            Your willingness to confront danger rather than
-            retreat when something important is at stake.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Empathy</h3>
-
-        <p>
-            How strongly you consider the feelings, suffering
-            and needs of other people when making decisions.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Loyalty</h3>
-
-        <p>
-            Your tendency to stand by friends, family and
-            allies even when doing so carries a cost.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Morality</h3>
-
-        <p>
-            How strongly your decisions are guided by
-            principles about right, wrong and responsibility.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Pragmatism</h3>
-
-        <p>
-            How willing you are to choose a practical
-            solution when ideal choices are unavailable.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Ruthlessness</h3>
-
-        <p>
-            How willing you are to use harsh or extreme
-            measures when you believe survival requires them.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Leadership</h3>
-
-        <p>
-            Your tendency to take responsibility, make
-            difficult decisions and guide other people.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Independence</h3>
-
-        <p>
-            How comfortable you are acting on your own
-            judgment instead of depending on a group.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Trust</h3>
-
-        <p>
-            How easily you place confidence in other people,
-            particularly when their motives are uncertain.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Charisma</h3>
-
-        <p>
-            Your ability to influence, reassure or attract
-            people through communication and personality.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Manipulation</h3>
-
-        <p>
-            How comfortable you are influencing other people
-            indirectly to achieve a desired outcome.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Strategy</h3>
-
-        <p>
-            Your tendency to think ahead, evaluate options
-            and consider the consequences of a decision.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Hope</h3>
-
-        <p>
-            How strongly you continue to believe that a
-            better outcome is possible despite adversity.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Emotional Control</h3>
-
-        <p>
-            Your ability to keep emotions from overwhelming
-            your judgment during stressful situations.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Risk Appetite</h3>
-
-        <p>
-            How willing you are to accept danger when the
-            potential reward appears worth the risk.
-        </p>
-
-    </article>
-
-</div>
-
-</section>
-
-<!-- =========================================================
-     CHARACTER GUIDE
-========================================================= -->
-
-<section class="content-section">
-
-<h2>
-    Which Walking Dead Characters Can You Get?
-</h2>
-
-
-<p>
-    The quiz contains 19 fictional character profiles.
-    Each represents a different combination of survival
-    instincts, relationships, morality, leadership and
-    emotional responses.
-</p>
-
-
-<p>
-    Your result does not mean that you are literally the
-    character or that you would make every decision they
-    make in the television series. It means your overall
-    quiz profile is closest to the personality pattern
-    represented by that character.
-</p>
-
-
-<div class="character-guide">
-
-
-    <article>
-
-        <h3>Rick Grimes</h3>
-
-        <p>
-            A protective leader who often carries the
-            responsibility of keeping a group together while
-            balancing morality with survival.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Daryl Dixon</h3>
-
-        <p>
-            Independent, resilient and cautious, with strong
-            loyalty toward the people he eventually trusts.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Carol Peletier</h3>
-
-        <p>
-            Adaptable and calculating, capable of making
-            extremely difficult decisions when she believes
-            they are necessary to protect others.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Shane Walsh</h3>
-
-        <p>
-            Intensely survival-focused and decisive, often
-            willing to cross moral boundaries when he believes
-            immediate action is required.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Glenn Rhee</h3>
-
-        <p>
-            Resourceful and empathetic, combining courage and
-            loyalty with a strong concern for the people
-            around him.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Michonne</h3>
-
-        <p>
-            Strong-willed and controlled, with a combination
-            of independence, loyalty and careful judgment.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Maggie Greene</h3>
-
-        <p>
-            Determined and resilient, with strong loyalty and
-            leadership instincts shaped by repeated loss.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Hershel Greene</h3>
-
-        <p>
-            Guided strongly by compassion and morality, while
-            trying to preserve humanity in an increasingly
-            brutal world.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Abraham Ford</h3>
-
-        <p>
-            Direct, courageous and action-oriented, with a
-            strong instinct to protect his group and pursue a
-            clear objective.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Eugene Porter</h3>
-
-        <p>
-            Analytical and strategic, relying heavily on
-            planning, information and intellectual problem
-            solving.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Negan</h3>
-
-        <p>
-            Charismatic and highly controlling, using
-            confidence, intimidation and manipulation to
-            establish authority.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>The Governor</h3>
-
-        <p>
-            A calculating and power-focused personality whose
-            desire for control can override empathy and
-            conventional morality.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Morgan Jones</h3>
-
-        <p>
-            Deeply affected by morality, grief and hope,
-            constantly struggling with how much violence is
-            acceptable for survival.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Gabriel Stokes</h3>
-
-        <p>
-            A character shaped by fear, faith, guilt and
-            personal growth, with an evolving approach to
-            courage and responsibility.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Ezekiel</h3>
-
-        <p>
-            Charismatic and optimistic, using confidence,
-            leadership and hope to inspire people around him.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Gregory</h3>
-
-        <p>
-            Self-interested and cautious, often prioritizing
-            personal security and influence when faced with
-            difficult choices.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Gareth</h3>
-
-        <p>
-            A highly pragmatic and ruthless survivor whose
-            approach to survival has pushed morality far into
-            the background.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Dawn Lerner</h3>
-
-        <p>
-            A rigid authority figure who places considerable
-            importance on order, control and maintaining
-            institutional power.
-        </p>
-
-    </article>
-
-
-    <article>
-
-        <h3>Bob Stookey</h3>
-
-        <p>
-            Compassionate and hopeful, with a strong desire
-            to remain connected to other people despite the
-            dangers surrounding him.
-        </p>
-
-    </article>
-
-</div>
-
-</section>
-
-<!-- =========================================================
-     MATCHING SYSTEM
-========================================================= -->
-
-<section class="content-section">
-
-<h2>
-    How Is Your Walking Dead Character Determined?
-</h2>
-
-
-<p>
-    The quiz does not simply assign a character according to
-    one answer. Each decision contributes to one or more of
-    the 16 personality dimensions used by the quiz.
-</p>
-
-
-<p>
-    After all 30 decisions are completed, your answers are
-    converted into a complete personality profile. That
-    profile is then compared with the fictional profiles
-    representing the 19 possible characters.
-</p>
-
-
-<p>
-    The character with the closest overall profile becomes
-    your primary match. The result page also shows your
-    second and third closest matches, allowing you to see
-    which other characters share parts of your personality.
-</p>
-
-
-<p>
-    Because the system evaluates multiple traits together,
-    choosing a different answer in one question does not
-    necessarily change your final character. Your overall
-    pattern of decisions matters more than any individual
-    choice.
-</p>
-
-</section>
-
-<!-- =========================================================
-     FAQ
-========================================================= -->
-
-<section class="content-section faq-section">
-
-<h2>
-    Walking Dead Personality Quiz FAQ
-</h2>
-
-
-<div class="faq-item">
-
-    <h3>
-        How does the Walking Dead personality quiz work?
-    </h3>
-
-    <p>
-        You answer 30 fictional survival and relationship
-        decisions. Each answer contributes to a profile
-        across 16 personality traits. Your completed profile
-        is then compared with 19 Walking Dead character
-        profiles.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        How many questions are in the quiz?
-    </h3>
-
-    <p>
-        There are 30 decisions. Every question has five
-        possible answers, so there are many different paths
-        through the quiz.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        How many Walking Dead characters can I match?
-    </h3>
-
-    <p>
-        There are 19 possible character matches in the
-        current version of the quiz.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        How is my character determined?
-    </h3>
-
-    <p>
-        Your answers create a 16-trait personality profile.
-        The quiz compares that profile with the character
-        profiles and calculates which one is the closest
-        overall match.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        Can I get a different character if I take the quiz
-        again?
-    </h3>
-
-    <p>
-        Yes. Different decisions can produce a different
-        personality profile and therefore a different
-        character match.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        Is this a scientific personality test?
-    </h3>
-
-    <p>
-        No. This is a fictional entertainment quiz created
-        around The Walking Dead characters. It is not a
-        clinical, psychological or scientifically validated
-        personality assessment.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        Does getting a character mean I am exactly like them?
-    </h3>
-
-    <p>
-        No. The result represents the closest match within
-        this quiz's fictional scoring system. Real people
-        have much more complex personalities than any quiz
-        can represent.
-    </p>
-
-</div>
-
-
-<div class="faq-item">
-
-    <h3>
-        Can I share my result with friends?
-    </h3>
-
-    <p>
-        Yes. After completing the quiz, you can share your
-        result or challenge friends to take the quiz and see
-        which Walking Dead character they receive.
-    </p>
-
-</div>
-
-</section>
-
-<!-- =========================================================
-     RELATED QUIZZES
-========================================================= -->
-
-<section class="content-section related-quizzes">
-    
-<h2>
-    More Apocalypse Quizzes
-</h2>
-
-
-<p>
-    Finished your personality test? Try another apocalypse
-    quiz and see how your knowledge or survival instincts
-    compare.
-</p>
-
-
-<div class="related-links">
-
-    <a href="/walking-dead-knowledge/">
-        Walking Dead Knowledge Quiz
-    </a>
-
-
-    <a href="/zombie-quiz/">
-        Zombie Apocalypse Survival Quiz
-    </a>
-
-
-    <a href="/ultimate-zombie-survival-test/">
-        Ultimate Zombie Apocalypse Survival Test
-    </a>
-
-</div>
-
-</section>
-
-<!-- =========================================================
-     MORE QUIZZES
-========================================================= -->
-
-<section class="more-quizzes">
-
-<a
-    href="/"
-    class="primary-btn">
-    EXPLORE MORE QUIZZES
-</a>
-
-</section>
-
-</main>
-
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
-<footer class="site-footer">
-
-<div class="footer-links">
-
-    <a href="/about.html">
-        About
-    </a>
-
-    <a href="/privacy.html">
-        Privacy
-    </a>
-
-    <a href="/disclaimer.html">
-        Disclaimer
-    </a>
-
-    <a href="/contact.html">
-        Contact
-    </a>
-
-</div>
-
-
-<p>
-    © 2026 Apocalypse Quizzes. All rights reserved.
-</p>
-
 </footer>
 
-<!-- =========================================================
-     QUIZ ENGINE
-========================================================= -->
 
+
+<!-- DATA / PERSONALITY ENGINE FIRST -->
 <script src="twd_personality_complete.js"></script>
 
+<!-- QUIZ UI SECOND -->
 <script src="twd_personality.js"></script>
 
-<!-- =========================================================
-     GLOBAL SITE MENU
-========================================================= -->
-
-<script>
-
-const menuToggle =
-    document.getElementById("menu-toggle");
-
-const siteMenu =
-    document.getElementById("site-menu");
-
-
-if (menuToggle && siteMenu) {
-
-    menuToggle.addEventListener(
-        "click",
-        function (event) {
-
-            event.stopPropagation();
-
-            const isOpen =
-                menuToggle.getAttribute(
-                    "aria-expanded"
-                ) === "true";
-
-
-            siteMenu.hidden = isOpen;
-
-
-            menuToggle.setAttribute(
-                "aria-expanded",
-                String(!isOpen)
-            );
-
-
-            menuToggle.setAttribute(
-                "aria-label",
-                isOpen
-                    ? "Open navigation"
-                    : "Close navigation"
-            );
-
-        }
-    );
-
-
-    document.addEventListener(
-        "click",
-        function (event) {
-
-            if (
-                !siteMenu.hidden &&
-                !siteMenu.contains(event.target) &&
-                !menuToggle.contains(event.target)
-            ) {
-
-                siteMenu.hidden = true;
-
-                menuToggle.setAttribute(
-                    "aria-expanded",
-                    "false"
-                );
-
-                menuToggle.setAttribute(
-                    "aria-label",
-                    "Open navigation"
-                );
-
-            }
-
-        }
-    );
-
-
-    siteMenu
-        .querySelectorAll("a")
-        .forEach(function (link) {
-
-            link.addEventListener(
-                "click",
-                function () {
-
-                    siteMenu.hidden = true;
-
-                    menuToggle.setAttribute(
-                        "aria-expanded",
-                        "false"
-                    );
-
-                    menuToggle.setAttribute(
-                        "aria-label",
-                        "Open navigation"
-                    );
-
-                }
-            );
-
-        });
-
-}
-
-</script>
 
 </body>
 
